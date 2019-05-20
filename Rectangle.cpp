@@ -46,3 +46,8 @@ void Rectangle::scale_around_point(float scale, float x, float y)
 		vertex[i].position = scaled_center + diff * scale;
 	}
 }
+
+void Rectangle::rotate(float angle){
+	sf::Vector2f rotate_center = (vertex[0].position + vertex[2].position)/2;
+	rotate_around_point(angle, rotate_center.x, rotate_center.y);
+}

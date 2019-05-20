@@ -14,7 +14,8 @@ public:
 	void move(float x, float y) override;
 	void rotate_around_point(float angle, float x, float y) override;
 	void scale_around_point(float scale, float x, float y) override;
-
+	
+	void rotate(float angle);
 private:
 	sf::VertexArray vertex;
 };

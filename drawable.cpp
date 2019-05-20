@@ -1,7 +1,6 @@
 #include "drawable.h"
 
 
-
 drawable::drawable()
 {
 }

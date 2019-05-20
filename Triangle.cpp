@@ -48,7 +48,7 @@ void Triangle::scale_around_point(float scale, float x, float y)
 	}
 }
 
-void Triangle::print()
+void Triangle::print() const
 {
 	bool flag = false;
 	for (int i = 0; i < 3; ++i) {
